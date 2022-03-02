@@ -1,0 +1,42 @@
+.footer-wrapper {
+    height: 100px;
+    width: 100%px;
+    background-color: #27282E;
+    border-top: 2px solid gray;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.footer-wrapper > .codepen-fors-wrapper {
+    display: flex;
+    height: 100px;
+    color: white;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.footer-wrapper > .codepen-fors-wrapper > .for > .regular-text {
+    color: #949494;
+}
+
+.footer-wrapper > .codepen-fors-wrapper > .for {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 800px;
+    border-right: 2px solid gray;
+    padding-top: 30px;
+    grid-gap: 9px;
+}
+
+.footer-wrapper > .codepen-fors-wrapper > .for > .bold-text {
+    font-weight: 1000;
+}
+
+.bottom-border {
+    height: 200px;
+    background-color: #1f1f24;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-top: 1px solid gray;
+}
